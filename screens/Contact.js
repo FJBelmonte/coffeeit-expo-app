@@ -60,9 +60,6 @@ export default function Contact() {
           />
         </TouchableOpacity>
       </View>
-      <View>
-        <Text>{result && JSON.stringify(result)}</Text>
-      </View>
     </View>
   );
 }
