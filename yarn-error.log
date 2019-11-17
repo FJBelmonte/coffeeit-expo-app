@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/FBelmonte/Desktop/coffeeit-expo/node_modules/@babel/code-frame/package.json'
+  Error: EACCES: permission denied, mkdir '/Users/FBelmonte/Desktop/coffeeit-expo/node_modules/@babel/core/node_modules/json5'
 
 npm manifest: 
   {

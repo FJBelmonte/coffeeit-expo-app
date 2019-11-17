@@ -63,7 +63,7 @@ export default function Contact() {
 
 async function _handlePressButtonAsync(link) {
   let result = await WebBrowser.openBrowserAsync(link);
-  setResult(result);
+  setResult(result ? result : null);
 }
 
 Contact.navigationOptions = {
