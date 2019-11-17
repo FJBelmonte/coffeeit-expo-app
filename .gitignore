@@ -8,3 +8,4 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-report/
+web-build/
