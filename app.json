@@ -25,6 +25,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "description":"Testing expo build:web from an example hybrid application http://coffeeit.com.br/"
+    "description":"Testing expo build:web from an example hybrid application. site: http://coffeeit.com.br/  code: https://github.com/FJBelmonte/coffeeit-expo-site"
   }
 }
