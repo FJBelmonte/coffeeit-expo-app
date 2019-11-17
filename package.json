@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0",
+    "gh-pages": "^2.1.1",
     "jest-expo": "^35.0.0"
   },
   "private": true
