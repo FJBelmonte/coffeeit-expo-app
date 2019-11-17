@@ -12,6 +12,12 @@ const size = 80;
 
 export default function Contact() {
   const [result, setResult] = useState("");
+
+  async function _handlePressButtonAsync(link) {
+    let result = await WebBrowser.openBrowserAsync(link);
+    setResult(result);
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
@@ -59,11 +65,6 @@ export default function Contact() {
       </View>
     </View>
   );
-}
-
-async function _handlePressButtonAsync(link) {
-  let result = await WebBrowser.openBrowserAsync(link);
-  setResult(result ? result : null);
 }
 
 Contact.navigationOptions = {
